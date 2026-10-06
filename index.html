@@ -90,6 +90,12 @@
           }
           .number a { color: var(--text); text-decoration: none; }
           .number a:hover { color: var(--orange); }
+          .number img {
+            display: block;
+            width: min(100%, 280px);
+            height: auto;
+            margin: 0 auto;
+          }
           .note { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
           @media (max-width: 420px) {
             .card { padding: 36px 22px 30px; }
@@ -114,7 +120,7 @@
             Chat on WhatsApp
           </a>
 
-          <p class="number"><a href="tel:+593999094242">099 909 4242</a></p>
+          <p class="number"><img src="/phonenumber.png" /></p>
           <p class="note">Serious inquiries only.</p>
         </main>
       </body>
